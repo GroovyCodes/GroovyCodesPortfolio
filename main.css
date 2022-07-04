@@ -65,8 +65,8 @@ body {
 }
 
 .nav {
-    transition: 0.3s ease;
-    display: none;
+    transition: all 0.2s ease;
+    opacity: 0;
 }
 
 .nav li {
@@ -104,6 +104,7 @@ body {
 
 .change {
     display: block;
+    opacity: 1;
 }
 
 .change .bar {
