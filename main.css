@@ -99,6 +99,7 @@ body {
     background: radial-gradient(circle, #DC052D, #DC052D);
     border-radius: 50%;
     transition: 0.3s ease;
+    transform: translate(-60%, -30%);
 }
 
 .change {
@@ -136,7 +137,6 @@ body {
     .change-bg {
         width: 120%;
         height: 60vh;
-        transform: translate(-60%, -30%);
     }
 
     .nav ul {
