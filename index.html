@@ -18,25 +18,25 @@
 </head>
 
 <body>
-    <header id="header">
-        <a href="#hero" id="logo">GROOVY<span> codes</span></a>
-        <div id="menu">
-            <div id="menu-bar" onclick="menuOnClick()">
+    <div id="menu-wrapper">
+        <a href="#home" id="logo">GROOVY <span>codes</span></a>
+        <div id="nav-wrapper">
+            <div id="burguer-menu" onclick="menuOnClick()">
                 <div id="bar1" class="bar"></div>
                 <div id="bar2" class="bar"></div>
                 <div id="bar3" class="bar"></div>
             </div>
             <nav class="nav" id="nav">
                 <ul>
-                    <li><a href="#header" onclick="menuOnClick()">Home</a></li>
-                    <li><a href="#" onclick="menuOnClick()">About</a></li>
-                    <li><a href="#" onclick="menuOnClick()">Skills</a></li>
-                    <li><a href="#" onclick="menuOnClick()">Contact</a></li>
+                    <li><a href="#home" onclick="menuOnClick()">Home</a></li>
+                    <li><a href="#about" onclick="menuOnClick()">About</a></li>
+                    <li><a href="#skills" onclick="menuOnClick()">Skills</a></li>
+                    <li><a href="#contact" onclick="menuOnClick()">Contact</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="menu-bg" id="menu-bg"></div>
-    </header>
+    </div>
+    <div id="menu-bg" class="menu-bg"></div>
     <section id="hero">
         <div id="hero-container">
             <h2>Hi,</h2>
@@ -44,8 +44,7 @@
             <p><span class="redAccent">web</span> developer</p>
         </div>
     </section>
-    <section id="hero">
-    </section>
+    <section id="hero"></section>
 </body>
 
 </html>
