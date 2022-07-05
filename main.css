@@ -1,4 +1,3 @@
-
 /*-----Default Styling-----*/
 * {
     box-sizing: border-box;
@@ -16,6 +15,11 @@ body {
     background-color: rgb(20, 20, 20);
     padding: 0;
     margin: 0;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
 }
 
 /*-----Menu-----*/
@@ -41,6 +45,7 @@ body {
 #logo span {
     color: var(--accentColor);
     font-size: 0.5em;
+    text-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
 }
 
 #burguer-menu {
@@ -130,8 +135,7 @@ body {
 
 /*-----Hero-----*/
 #hero {
-    height: 100vh;
-    width: 100vw;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,7 +146,7 @@ body {
     font-family: 'Staatliches', cursive;
     letter-spacing: 2px;
     line-height: 0.3;
-    margin: -15vh 0 0 18vw;
+    margin: -5vh 0 0 15vw;
 }
 
 #hero-container h2 {
@@ -159,4 +163,19 @@ body {
 
 .redAccent {
     color: #DC052D;
+    text-shadow: rgba(255, 0, 0, 0.3) 0 0 20px;
+}
+
+/*-----About-----*/
+#about {
+    background-color: rgb(197, 197, 197);
+}
+
+#round-top {
+    height: 10vh;
+    background-color: rgb(197, 197, 197);
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    margin: -5vh 0 0 vw;
+    width: 100vw;
 }
